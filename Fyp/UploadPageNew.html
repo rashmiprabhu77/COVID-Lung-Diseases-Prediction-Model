@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div>
+		<nav>
+			<ul class="navlink">
+				<li><a href="Homepagenew.html">Home</a></li>
+				<li><a href="#">How It Works</a></li>
+				<li><a href="AboutUs.html">About Us</a></li>
+			</ul>	
+		</nav>
+	</div>
+		
+<section class="about" id="about">
+	<br><br>
+    		<h1 class="heading"> <span>Upload</span> Here</h1>
+
+<div class="uploadbox">
+	<img src="image/uploadicon.png" style="width : 200px; height:200px;">
+<br><br>
+	<div>
+		<p style="font-size:20px;">Click Button below to Upload files</p>
+   	</div>
+	
+	
+<br>
+	<input type="file" id="file-input" style="display: none;">
+	<button class="sltfiles">Select Files</button>
+</div>
+ 
+
+<script>
+   const input = document.querySelector('#file-input');
+   const button = document.querySelector('button');
+   button.addEventListener('click', () => input.click());
+</script>
+<br><br><br><br>
+</section>
+<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="footer-col">
+					<h4>Useful Links</h4>
+					<ul>
+						<li><a href = "#">How to Use</a></li>
+						<li><a href = "#">The Model</a></li>
+						<li><a href = "#">Pneumonia</a></li>
+						<li><a href = "#">COVID</a></li>
+						<li><a href = "#">Lung Opacity</a></li>
+					</ul>
+				</div>
+			<div class="footer-col">
+					<h4>Company</h4>
+					<ul>
+						<li><a href = "#">FAQ</a></li>
+						<li><a href = "#">About</a></li>
+						<li><a href = "#">Team</a></li>
+						<li><a href = "#">Doctors</a></li>
+					</ul>
+				</div>
+			<div class="footer-col">
+					<h4>Contact Us</h4>
+					<div class="social-links">
+						<a href = "#"><i class="fab fa-instagram"></i></a>
+						<a href = "#"><i class="fab fa-google"></i></a>
+						<a href = "#"><i class="fab fa-github"></i></a>
+						<a href = "#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+</body>
+</html>
